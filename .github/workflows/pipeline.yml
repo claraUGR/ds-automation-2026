@@ -1,7 +1,7 @@
 name: CI/CD Pipeline DS 2026
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
