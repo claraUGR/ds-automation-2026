@@ -8,8 +8,8 @@ def test_empty_text():
     ta = TextAnalyzer()
     assert ta.count_words("") == 0
 
-def test_empty_text():
+def test_strange_character():
     ta = TextAnalyzer()
-    assert ta.count_words("*") == 1
+    assert ta.count_word("*") == 1
 
 # python -m pytest tests/test_unit.py
